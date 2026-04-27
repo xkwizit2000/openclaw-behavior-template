@@ -15,7 +15,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-TARGET_DIR="$1"
+TARGET_DIR="$1"/workspace
 
 # Create target directory if it doesn't exist
 mkdir -p "$TARGET_DIR"
