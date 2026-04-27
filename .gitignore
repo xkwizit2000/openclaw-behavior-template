@@ -1,0 +1,16 @@
+# Ignore local test installations
+test-agent/
+test-*/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
